@@ -1,11 +1,11 @@
-// import Image from 'next/image'
+ import Image from 'next/image'
 import styles from './profile.module.css'
 
 const Profile = () => {
   return (
     <div className={styles.container}>
       <header className={styles.header}>
-        <img
+        <Image
           src="/profile.jpg"
           className={`${styles.headerHomeImage} ${styles.borderCircle}`}
           height="128"
