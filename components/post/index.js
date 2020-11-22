@@ -12,7 +12,7 @@ const Post = ({
   description,
   date,
   previous,
-  next
+  next,
 }) => {
   return (
     <Page
@@ -32,7 +32,7 @@ const Post = ({
 
       <article
         dangerouslySetInnerHTML={{
-          __html: `${html}`
+          __html: `${html}`,
         }}
       />
 

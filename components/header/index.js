@@ -53,7 +53,7 @@ const Header = ({ slug, title, showTab }) => {
             { title: 'Blog', value: '' },
             { title: 'Vim', value: 'vim' },
             { title: 'Journal', value: 'journal' },
-            { title: 'Profile', value: 'profile' }
+            { title: 'Profile', value: 'profile' },
           ]}
         />
       )}

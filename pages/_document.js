@@ -29,7 +29,7 @@ class MyDocument extends Document {
                     .getPropertyValue('${bgVariableName}')
                   document.documentElement.style.background = bgValue
                 } catch (e) {}
-              })()`
+              })()`,
             }}
           />
           <script
@@ -45,7 +45,7 @@ class MyDocument extends Document {
             gtag('config', '${GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
-          `
+          `,
             }}
           />
           <Main />

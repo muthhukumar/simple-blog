@@ -5,12 +5,12 @@ import Error from '@/components/error'
 // Included just to prevent Automatic Static Optimization
 export async function getStaticProps(context) {
   return {
-    props: {}
+    props: {},
   }
 }
 
 // Strips potential `/term?something=else` into `term`
-const extractTerm = path =>
+const extractTerm = (path) =>
   path.substring(
     path.indexOf('/') + 1,
     Math.max(path.indexOf('?'), path.length)

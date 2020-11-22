@@ -9,7 +9,7 @@ const Posts = ({ href = '/[slug]', as, posts, paginate }) => {
   return (
     <>
       <ul className={styles.container}>
-        {posts.slice(0, paginate ? showMore : undefined).map(post => {
+        {posts.slice(0, paginate ? showMore : undefined).map((post) => {
           return (
             <TextEntry
               key={`post-item-${post.slug}`}

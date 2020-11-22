@@ -8,7 +8,7 @@ import * as gtag from '@/lib/gtag'
 // Only show nprogress after 500ms (slow loading)
 const start = debounce(nprogress.start, 500)
 Router.events.on('routeChangeStart', start)
-Router.events.on('routeChangeComplete', url => {
+Router.events.on('routeChangeComplete', (url) => {
   start.cancel()
   nprogress.done()
   window.scrollTo(0, 0)

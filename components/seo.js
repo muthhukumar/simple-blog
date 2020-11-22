@@ -4,7 +4,7 @@ const Head = ({
   title = 'MK Blog',
   description = 'My Personal Blog and other stuff',
   image,
-  children
+  children,
 }) => {
   return (
     <NextHead>

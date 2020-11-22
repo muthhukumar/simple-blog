@@ -9,13 +9,14 @@ const Tabs = ({ tabs }) => {
 
   return (
     <div className={styles.noScrollBar + ' ' + styles.tabs} data-geist-tabs="">
-      {tabs.map(tab => (
+      {tabs.map((tab) => (
         <Link href={`/${tab.value}`} key={tab.value}>
           <a className={styles.link}>
             <div className={styles.tabContainer} role="button">
               <div
-                className={`${styles.tab} ${route === tab.value &&
-                  styles.activeTab}`}
+                className={`${styles.tab} ${
+                  route === tab.value && styles.activeTab
+                }`}
               >
                 <div>{tab.title}</div>
               </div>

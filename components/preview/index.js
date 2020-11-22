@@ -8,7 +8,7 @@ const Preview = ({ post, active }) => {
 
   const d = new Date(date)
   const displayDate = `${d.toLocaleString('default', {
-    month: 'long'
+    month: 'long',
   })} ${d.getDate()}`
 
   return (

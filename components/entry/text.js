@@ -25,7 +25,7 @@ const TextEntry = ({ data, date, title, href, category, as, description }) => {
           margin: 0,
           marginTop: '2px',
           marginBottom: '2px',
-          lineHeight: 1.3
+          lineHeight: 1.3,
         }}
       >
         {description}
