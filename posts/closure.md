@@ -20,8 +20,7 @@ function OuterFunction() {
 OuterFunction()
 ```
 
-In the above example, the InnerFunction function has access to the variable outside of that function. That's a
-**Closure**.
+In the above example, the InnerFunction function has access to the variable outside of that function. That's a **Closure**.
 
 When the OuterFunction is called, the OuterFunction function is created with the message variable and InnerFunction function. So when the InnerFunction is called inside OuterFunction it has access to the message variable. Now you think once the OuterFunction gets executed do you think whether the InnerFunction can have the access to the message variable. Yes, the InnerFunction has access to the message variable that is because of the **Closure**.
 
