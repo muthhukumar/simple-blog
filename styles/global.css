@@ -125,6 +125,14 @@ svg {
   display: none;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 p,
 li {
   letter-spacing: -0.33px;
