@@ -16,7 +16,7 @@ const Profile = () => {
         <div className={styles.headingMd}>
           <p>
             Hello, I'm<b> MuthuKumar</b>, I'm a Tech Enthusiast and MERN full
-            stack developer. I love Reac, Nextjs and coding more than anything
+            stack developer. I love React, Nextjs and coding more than anything
             in the world. You can contact me on{' '}
             <a
               href="https://twitter.com/0_void_"
