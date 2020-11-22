@@ -8,7 +8,7 @@ const Vim = ({ posts }) => {
   return (
     <Page description="Muthukumar personal blog" showTab title="Vim">
       <article>
-        <PostsList posts={posts} href="/vim/[slug]" as="/vim/"/>
+        <PostsList posts={posts} href="/vim/[slug]" as="/vim/" />
       </article>
     </Page>
   )

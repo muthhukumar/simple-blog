@@ -8,7 +8,7 @@ const Journal = ({ posts }) => {
   return (
     <Page description="Muthukumar personal Journal" title="Journal" showTab>
       <article>
-        <PostsList posts={posts} href="/journal/[slug]" as="/journal/"/>
+        <PostsList posts={posts} href="/journal/[slug]" as="/journal/" />
       </article>
     </Page>
   )

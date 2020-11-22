@@ -3,7 +3,7 @@ import { useState } from 'react'
 import TextEntry from '@/components/entry/text'
 import styles from './posts-list.module.css'
 
-const Posts = ({ href = "/[slug]", as, posts, paginate }) => {
+const Posts = ({ href = '/[slug]', as, posts, paginate }) => {
   const [showMore, setShowMore] = useState(3)
 
   return (

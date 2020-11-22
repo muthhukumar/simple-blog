@@ -20,7 +20,16 @@ const TextEntry = ({ data, date, title, href, category, as, description }) => {
           {title}
         </span>
       </Link>
-      <p style={{margin: 0, marginBottom: '4px', lineHeight: 1.3}}>{description}</p>
+      <p
+        style={{
+          margin: 0,
+          marginTop: '2px',
+          marginBottom: '2px',
+          lineHeight: 1.3
+        }}
+      >
+        {description}
+      </p>
       <div className={styles.dateDetails}>
         Published on <span className={styles.date}>{date}</span>
       </div>

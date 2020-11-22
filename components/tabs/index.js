@@ -12,10 +12,7 @@ const Tabs = ({ tabs }) => {
       {tabs.map(tab => (
         <Link href={`/${tab.value}`} key={tab.value}>
           <a className={styles.link}>
-            <div
-              className={styles.tabContainer}
-              role="button"
-            >
+            <div className={styles.tabContainer} role="button">
               <div
                 className={`${styles.tab} ${route === tab.value &&
                   styles.activeTab}`}

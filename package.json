@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "scripts": {
     "lint": "prettier --write '**/*.js'",
-    "dev": "next-remote-watch posts",
-    "build": "yarn rss && next build",
-    "rss": "node lib/rss"
+    "dev": "next dev",
+    "build": "next build"
   },
   "pre-commit": "lint",
   "license": "MIT",
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
-    "@material-ui/icons": "^4.9.1",
     "classnames": "^2.2.6",
     "intersection-observer": "^0.7.0",
     "lodash.debounce": "^4.0.8",
@@ -19,7 +16,9 @@
     "nprogress": "^0.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "swr": "^0.2.0"
+    "swr": "^0.2.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.10",
@@ -38,6 +37,7 @@
     "next-remote-watch": "^0.1.1",
     "prettier": "^1.18.2",
     "prism-react-renderer": "^1.1.1",
+    "rss": "^1.2.2",
     "typescript": "^3.8.3"
   },
   "prettier": {

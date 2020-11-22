@@ -39,12 +39,15 @@
   color: var(--date-color);
   font-size: 14px;
 }
+
 .minuteRead {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   font-weight: 400;
+  line-height: 1.2;
 }
+
 .minuteRead span {
   margin-left: 4px;
 }
