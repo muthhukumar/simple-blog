@@ -2,6 +2,7 @@
 title: Mock and Unit testing
 slug: unit-testing
 date: August 24, 2020
+lastUpdated: August 24, 2020
 category: language
 description: Short description about mock and unit testing with code examples.
 ---
@@ -33,7 +34,7 @@ This can be called as a Unit function. All it does is one task (i.e)., Check whe
 
 ---
 
-### let's write our first Unit test
+### Let's write our first Unit test
 
 Create a new project by initializing,
 
@@ -170,6 +171,4 @@ Output should be like this,
 - Easy to debug.
 - If there is an error, we know what function is causing the error.
 
-For database query and API calls, we should create a separate function for that. So that if something went wrong
-we can check our code with the particular data and make sure that our business logic is working properly and
-the problem is with the API request or DB call.
+For database query and API calls, we should create a separate function for that. So that if something went wrong we can check our code with the particular data and make sure that our business logic is working properly and the problem is with the API request or DB call. 

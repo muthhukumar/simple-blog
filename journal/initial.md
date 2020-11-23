@@ -2,6 +2,7 @@
 title: Day one Journal
 slug: day-one
 date: November 22, 2020
+lastUpdated: November 22, 2020
 category: Journal
 description: Journal of the day one. So today I almost completed the blog website.
 ---

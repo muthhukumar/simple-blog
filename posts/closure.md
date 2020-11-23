@@ -2,6 +2,7 @@
 title: What is a closure?
 slug: closure
 date: July 11, 2020
+lastUpdated: July 11, 2020
 category: language
 description: Brief explaination about closure in Javascript. 
 ---

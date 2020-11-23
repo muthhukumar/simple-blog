@@ -34,7 +34,7 @@ const TextEntry = ({ data, date, title, href, category, as, description }) => {
         Published on <span className={styles.date}>{date}</span>
       </div>
       <div className={styles.minuteRead}>
-        <AccessTimeIcon fontSize="inherit" />{' '}
+        <AccessTimeIcon fontSize="inherit" />
         <span>{getMinutesToRead(data)} min read</span>
       </div>
     </li>

@@ -20,6 +20,7 @@ const Posts = ({ href = '/[slug]', as, posts, paginate }) => {
               date={post.date}
               data={post.body}
               description={post.description}
+              lastUpdated={post.lastUpdated}
             />
           )
         })}
