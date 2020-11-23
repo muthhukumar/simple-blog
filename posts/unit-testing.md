@@ -33,7 +33,7 @@ This can be called as a Unit function. All it does is one task (i.e)., Check whe
 
 ---
 
-### Let's write our first Unit test
+### let's write our first Unit test
 
 Create a new project by initializing,
 
