@@ -28,7 +28,7 @@
   padding: 6px 2px;
   border-bottom: 2px solid transparent;
   color: var(--accents-5);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .tabContainer:first-child {
   padding-left: 0;
