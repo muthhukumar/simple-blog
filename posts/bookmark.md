@@ -38,7 +38,7 @@ Epic React articles
 <a href="https://www.keybr.com/" class="bookmarkLink" target="_blank">Keybr</a>
 Practice Touch typing for beginners
 
-<a href="https://www.keybr.com/" class="bookmarkLink" target="_blank">10fastfingers</a>
+<a href="https://10fastfingers.com/" class="bookmarkLink" target="_blank">10fastfingers</a>
 Typing test and improve touch typing speed
 
 <a href="https://fonts.google.com/" class="bookmarkLink" target="_blank">Google Fonts</a>
