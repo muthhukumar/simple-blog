@@ -88,7 +88,6 @@
   background: var(--selection);
   color: var(--bg);
 }
-
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -130,7 +129,7 @@ textarea,
 button,
 select,
 a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 p,
@@ -260,4 +259,9 @@ details {
   background: var(--lightest-gray);
   padding: 1rem;
   border-radius: var(--radius);
+}
+
+.bookmarkLink{
+  color: var(--accent);
+  text-decoration: underline;
 }
