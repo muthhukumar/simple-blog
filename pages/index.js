@@ -8,7 +8,7 @@ const Blog = ({ posts }) => {
   return (
     <Page description="Muthukumar personal blog" showTab>
       <article>
-        <PostsList posts={posts} as="/" />
+        <PostsList posts={posts} as="/" paginate/>
       </article>
     </Page>
   )
