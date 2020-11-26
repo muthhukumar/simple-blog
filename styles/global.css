@@ -43,7 +43,7 @@
   --lighter-accent: #fff3bd;
   --date-color: #bdbdbd;
   --accents-2: #333;
-  --accents-5: #666;
+  --accents-5: #a0a0a0;
   --geist-foreground: #fff;
 
   /* Syntax Highlighting */
@@ -69,7 +69,7 @@
   --lighter-accent: #1274a0;
   --date-color: #757577;
   --accents-2: #eaeaea;
-  --accents-5: #888;
+  --accents-5: #595959;
   --geist-foreground: black;
 
   --token: var(--lighter-accent);
