@@ -4,7 +4,7 @@ slug: bookmarks
 date: November 25, 2020
 lastUpdated: November 25, 2020 
 category: links
-description: In this post I listed all the useful links and tools I use while I'm working on a project.
+description: Useful links and tools for a project
 ---
 
 # Bookmarks
