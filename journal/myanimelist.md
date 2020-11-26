@@ -49,6 +49,7 @@ description: This is My MyAnimeList
 8. Tower of Gods
 9. Attack on titans
 10. Doctor stone
+11. Hunter x hunter
 
 
 ## Not completed
