@@ -8,22 +8,19 @@ const Post = ({
   slug,
   html,
   hidden,
-  og,
+  // og,
   description,
   date,
   previous,
   next,
+  path
 }) => {
   return (
     <Page
       slug={slug}
       title={title}
       description={description}
-      image={
-        og && og === true
-          ? `https://res.cloudinary.com/dsdlhtnpw/image/upload/${slug}.png`
-          : og
-      }
+      
     >
       <Head>
         {hidden && <meta name="robots" content="noindex" />}
@@ -36,7 +33,7 @@ const Post = ({
         }}
       />
 
-      <Navigation previous={previous} next={next} />
+      <Navigation previous={previous} next={next} path={path}/>
     </Page>
   )
 }
