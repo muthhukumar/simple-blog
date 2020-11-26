@@ -14,10 +14,7 @@ const Page = ({
   return (
     <div className={styles.wrapper}>
       <SEO
-        title={`${
-          (title ? `MK Blog - ${title}` : 'MK Blog') +
-          ' ・ My Personal Blogs and other stuff'
-        }`}
+        title={`${title ? `MK Blog - ${title}` : 'MK Blog'}`}
         description={description}
         image={image}
       />

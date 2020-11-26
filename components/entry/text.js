@@ -4,7 +4,7 @@ import AccessTimeIcon from '@material-ui/icons/AccessTime'
 
 import Link from '@/components/link'
 import styles from './text.module.css'
-import { getMinutesToRead } from '@/lib/getMinutesRead'
+// import { getMinutesToRead } from '@/lib/getMinutesRead'
 
 const TextEntry = ({ data, date, title, href, category, as, description }) => {
   return (
@@ -20,23 +20,14 @@ const TextEntry = ({ data, date, title, href, category, as, description }) => {
           {title}
         </span>
       </Link>
-      <p
-        style={{
-          margin: 0,
-          marginTop: '2px',
-          marginBottom: '2px',
-          lineHeight: 1.3,
-        }}
-      >
-        {description}
-      </p>
+      <p className={styles.detail}>{description}</p>
       <div className={styles.dateDetails}>
         Published on <span className={styles.date}>{date}</span>
       </div>
-      <div className={styles.minuteRead}>
+      {/* <div className={styles.minuteRead}>
         <AccessTimeIcon fontSize="inherit" />
         <span>{getMinutesToRead(data)} min read</span>
-      </div>
+      </div> */}
     </li>
   )
 }
