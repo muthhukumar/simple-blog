@@ -3,7 +3,7 @@ import getPosts from '@/lib/get-posts'
 import renderMarkdown from '@/lib/render-markdown'
 
 const PostPage = (props) => {
-  return <Post {...props} />
+  return <Post {...props} path="/journal/"/>
 }
 
 export const getStaticProps = ({ params: { slug } }) => {

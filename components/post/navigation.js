@@ -2,12 +2,12 @@ import Link from '@/components/link'
 
 import styles from './navigation.module.css'
 
-const Previous = ({ previous, next }) => {
+const Previous = ({path, previous, next }) => {
   return (
     <div className={styles.navigation}>
       <div className={styles.previous}>
         {previous && (
-          <Link href="/[slug]" gray as={`/${previous.slug}`}>
+          <Link href={`${path}[slug]`} gray as={`${path}${previous.slug}`}>
             <div className={styles.title}>← {previous.title}</div>
           </Link>
         )}
@@ -15,7 +15,7 @@ const Previous = ({ previous, next }) => {
 
       <div className={styles.next}>
         {next && (
-          <Link href="/[slug]" gray as={`/${next.slug}`}>
+          <Link href={`${path}[slug]`} gray as={`${path}${next.slug}`}>
             <div className={styles.title}>{next.title} →</div>
           </Link>
         )}
