@@ -1,4 +1,4 @@
-# [Blog](https://wat.vercel.app)
+# [Blog](https://mk-blog.vercel.app)
 
 Blog posts related to vim, my journal and some other blog posts
 
