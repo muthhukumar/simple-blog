@@ -8,7 +8,7 @@
   width: 100%;
   cursor: pointer;
   border-radius: var(--radius);
-  color: var(--gray);
+  color: var(--show-more-gray);
   font-weight: 500;
   background: var(--lighter-gray);
   border: none;
