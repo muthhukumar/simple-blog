@@ -34,6 +34,7 @@ description: This is My MyAnimeList
 ## Watch list
 
 1. Golden Kamuy
+2. Sword Art Online
 
 
 ## Waiting for new Season
@@ -47,6 +48,7 @@ description: This is My MyAnimeList
 7. Castlevania
 8. Tower of Gods
 9. Attack on titans
+10. Doctor stone
 
 
 ## Not completed
