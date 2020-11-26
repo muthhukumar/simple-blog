@@ -10,7 +10,7 @@ const Profile = () => {
           className={`${styles.headerHomeImage} ${styles.borderCircle}`}
           height="128"
           width="128"
-          alt={'profile'}
+          alt={'Muthukumar Profile picture'}
         />
         <h1 className={styles.heading2Xl}>Profile</h1>
         <div className={styles.headingMd}>
