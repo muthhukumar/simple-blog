@@ -29,12 +29,12 @@ description: This is My MyAnimeList
 6. Our Last Crusade or the Rise of a New World / Kimisen
 7. Noblesse
 8. Fire Force
+9. Golden kamuy
 
 
 ## Watch list
 
-1. Golden Kamuy
-2. Sword Art Online
+1. Sword Art Online
 
 
 ## Waiting for new Season
