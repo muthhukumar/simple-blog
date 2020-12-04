@@ -7,7 +7,7 @@ category: utility
 description: List of states in India
 ---
 
-List of states in India
+### List of states in India
 
 1. Andhra Pradesh
 2. Arunachal Pradesh
