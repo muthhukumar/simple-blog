@@ -1,6 +1,6 @@
 ---
 title: States in India
-slug: indiaStates
+slug: states-in-India
 date: December 4, 2020
 lastUpdated: December 4, 2020
 category: utility
