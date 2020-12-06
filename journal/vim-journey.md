@@ -20,7 +20,7 @@ So I looked at the keyboard navigation and other shortcuts in Visual studio code
 
 
 ## Encounter
-After a week or so, while scrolling videos on Youtube, I found a video of Vim or to be very precious Youtube recommendation algorithm suggested a video of Vim. I cannot remember the exact video I saw, but I know the channel name(https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw). In that video, he made the navigation and editing of a file in Vim very cool. So I started to watch more of his video on Vim. And I fell in love with the editing and navigation speed in Vim. In the end, I finally found what I needed.
+After a week or so, while scrolling videos on Youtube, I found a video of Vim or to be very precious Youtube recommendation algorithm suggested a video of Vim. I cannot remember the exact video I saw, but I know the channel name [ThePrimeagen](https://www.youtube.com/channel/UC8ENHE5xdFSwx71u3fDH5Xw). In that video, he made the navigation and editing of a file in Vim very cool. So I started to watch more of his video on Vim. And I fell in love with the editing and navigation speed in Vim. In the end, I finally found what I needed.
 
 
 ## Try-out
